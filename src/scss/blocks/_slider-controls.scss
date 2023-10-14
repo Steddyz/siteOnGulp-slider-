@@ -1,0 +1,31 @@
+.slider-controls {
+  display: grid;
+  gap: 15px;
+}
+.slider-controls__arrows {
+  display: flex;
+  gap: 5px;
+  opacity: 0.3;
+}
+
+.slider-controls__count {
+  display: flex;
+  column-gap: 6px;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  color: rgba(255, 255, 255, 0.3);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1;
+  text-align: right;
+}
+
+// .swaper-pagination-current - свайпер даёт класс активному комеру(по документации)
+
+.slider-controls__count-current,
+.swaper-pagination-current {
+  font-size: 32px;
+  line-height: 0.75;
+  color: #fff;
+}
